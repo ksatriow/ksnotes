@@ -10,35 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Internet of Things',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Practice using Arduino, ESP, NodeMCU, Raspberry. Protocol HTTP, WiFi, MQTT, LoRa, LiFi 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Mobile Development',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Practice and Learning using Java, Kotin. Fundamental using Jetpack Component, Develop Mobile Application using design pattern MVP, MVVM and MVI. Practice Kotlin Multi Platform
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'DevOps',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Practice and Learn Virtualization, Containerize, Automation, Cloud, Monitoring and Security
       </>
     ),
-  },
+  }
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {
