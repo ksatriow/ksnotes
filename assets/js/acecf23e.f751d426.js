@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkswnotes=self.webpackChunkkswnotes||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/kswdocs/blog","blogTitle":"Blog"}')}}]);
