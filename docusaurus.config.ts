@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const organizationName = "ksatriow";
-const projectName = "kswdocs";
+const projectName = "ksnotes";
 
 const config: Config = {
   title: 'KSatrio Notes',
@@ -14,8 +14,8 @@ const config: Config = {
   url: 'https://ksatriow.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/kswdocs/',
-  projectName: 'kswdocs',
+  baseUrl: '/ksnotes/',
+  projectName: 'ksnotes',
   organizationName: 'ksatriow',
   trailingSlash: false,
 
